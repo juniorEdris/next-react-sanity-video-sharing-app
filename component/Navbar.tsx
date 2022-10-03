@@ -12,7 +12,7 @@ const Navbar: NextPage = () => {
   return (
     <div className="w-full flex justify-between item-center border-b-2 border-gray-200 py-2 px-4">
       <Link href="/">
-        <div className="w-[100px] md:w-[130px] h-[38px]">
+        <div className="w-[100px] md:w-[130px]">
           <Image
             src={Logo}
             alt="logo"
